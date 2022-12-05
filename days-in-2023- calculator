@@ -1,0 +1,22 @@
+# compute total number of days in 2023
+
+# declare number of days each month
+days_in_jan = 31
+days_in_feb = 28
+days_in_mar = 31
+days_in_apr = 30
+days_in_may = 31
+days_in_jun = 30
+days_in_jul = 31
+days_in_aug = 31
+days_in_sep = 30
+days_in_oct = 31
+days_in_nov = 30
+days_in_dec = 31
+
+# to add number of days by month in 2023
+days_2023 = (days_in_jan + days_in_feb + days_in_mar + days_in_apr + days_in_may + days_in_jun +
+             days_in_jul + days_in_aug + days_in_sep + days_in_oct + days_in_nov + days_in_dec)
+
+# display total days in 2023
+print("The total number of days in 2023 is " + str(days_2023))
